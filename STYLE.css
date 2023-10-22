@@ -1,5 +1,14 @@
 
 h4 {color: firebrick;}
-.damilola{ color: black; font-size: 34px;}
-p {color: blue}
-.funmi{ color:red; font-size: 45px;}
+.damilola {align-items:center; darksalmon; font-size: 25px; font-style: italic; padding-left: 580px; color: coral; padding-top: 20px}
+.none {color:; border-style:solid; border-color:pink; border-width: 5px; padding-left: 70px; font-size: 30px; border-radius: 100px; margin-left: 500px; margin-right: 500px; font-style: italic;}
+.funmi{color:red; font-size: 25px; padding-left: 10px; font-style: italic; border-style: dotted; border-radius: 10px; margin-right: 1100px;}
+#main {color:coral; font-size: 100px; padding-top: 35px; padding-bottom: 25px; padding-left: 250px; font-family:serif; background-color: pink;}
+.parent {display: flex; flex-direction: column;}
+#about {color: coral;}
+.body {color:indianred;}
+.parents {display: flex; flex-direction: column-reverse;}
+* {margin: 5px; padding: 0px;}
+header {height: 100px; display: flex; justify-content: space-around; align-items: center;}
+ul {display: flex;list-style-type: none; align-items: center;}
+ul li a {padding: 0px; text-decoration: none; color: coral; display: inline-block;}
