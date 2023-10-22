@@ -1,14 +1,20 @@
 
-h4 {color: firebrick;}
-.damilola {align-items:center; darksalmon; font-size: 25px; font-style: italic; padding-left: 580px; color: coral; padding-top: 20px}
+h4 {color:coral}
+.damilola {align-items:center; color:lightpink; font-size: 20px; font-style: italic; padding-left: 580px; color: coral; padding-bottom; 10px}
 .none {color:; border-style:solid; border-color:pink; border-width: 5px; padding-left: 70px; font-size: 30px; border-radius: 100px; margin-left: 500px; margin-right: 500px; font-style: italic;}
-.funmi{color:red; font-size: 25px; padding-left: 10px; font-style: italic; border-style: dotted; border-radius: 10px; margin-right: 1100px;}
-#main {color:coral; font-size: 100px; padding-top: 35px; padding-bottom: 25px; padding-left: 250px; font-family:serif; background-color: pink;}
+.funmi{color:coral; font-size: 25px; padding-left: 10px; margin-right: 800px;}
+#LS {color:coral; font-size: 100px; padding-top: 35px; padding-bottom: 25px; padding-left: 250px; font-family:serif; border-radius: 100px; border-width: 10px;}
 .parent {display: flex; flex-direction: column;}
-#about {color: coral;}
-.body {color:indianred;}
+#about {color: coral; border: none; border-radius: 10px; width: 150px; border-top: 5px; background-color: lightpink;}
+.order {color: coral; font-size: 30px; border-style: dotted; border-width: 2px; border-radius: 10px; width: 600px; padding-left: 300px; margin-left: 300px; background-color:lightpink;}
+.body {color:coral; background-color:mistyrose;}
 .parents {display: flex; flex-direction: column-reverse;}
 * {margin: 5px; padding: 0px;}
-header {height: 100px; display: flex; justify-content: space-around; align-items: center;}
+header {height: 200px; display: flex; justify-content: space-around; align-items: center; background-color: lightpink;}
 ul {display: flex;list-style-type: none; align-items: center;}
 ul li a {padding: 0px; text-decoration: none; color: coral; display: inline-block;}
+main {display: flex; align-items: center; justify-content:center ;}
+.content-left {width: 50%; margin:20px; margin-top: 250; justify-items: center;}
+.content-right {width: 20%; margin:10px; margin-top: 450;}
+main h1 {text-transform: uppercase; line-height: 50px;}
+main h2 {text-transform: uppercase; letter-spacing: 8px;}
