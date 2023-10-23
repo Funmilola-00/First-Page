@@ -9,9 +9,9 @@ body {
     color: white; 
     border: none; 
     border-radius: 100px; 
-    width: 80%; 
+    width: 8%; 
     border-top: 5px; 
-    padding-left: 20px;
+    padding-left: 10px;
     padding-top: 10px;
     padding-right: 5px;
     padding-bottom: 10px;
@@ -72,7 +72,7 @@ header {
 }
 
 
-h3 {
+.owner {
     padding-left: 650PX;
     align-items: center;
     justify-items: center;
@@ -101,13 +101,13 @@ main {
     border-style: solid;
     border-color: lightpink;
     border-radius: 100px;
-    border-right: 500px;
+    border-right: 50px;
     border-left: 500px;
     border-width: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
-    padding-right: 500px;
+    padding-right: 50px;
 }
 
 
@@ -128,14 +128,20 @@ main h2 {
 
 
 .content-right {
-    width: 50%; 
-    margin:5px; 
-    margin-top: 50px;
+    width: 60%; 
+    margin: 5px; 
+    margin-top: 300px; 
+    justify-items:left; 
     border-style: solid;
-    border-width: 10px;
-    border-top: 10px;
     border-color: lightpink;
     border-radius: 100px;
+    border-right: 50px;
+    border-left: 500px;
+    border-width: 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 10px;
 }
 
 
