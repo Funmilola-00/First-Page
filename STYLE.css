@@ -35,7 +35,7 @@ h4 {
     justify-items: center;
 }
 
-#LS {color:coral; 
+#Page-title {color:coral; 
     font-size: 100px; 
     padding-top: 35px; 
     padding-bottom: 25px; 
@@ -55,22 +55,30 @@ h4 {
     flex-direction:row-reverse;
 }
 
-#about {
+.about {
     color: white; 
     border: none; 
-    border-radius: 10px; 
-    width: 150px; 
+    border-radius: 100px; 
+    width: 7%; 
     border-top: 5px; 
+    padding-left: 30px;
+    padding-right: 10;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color:pink ;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .home {
     color: white; 
     border: none; 
-    border-radius: 10px; 
+    border-radius: 100px; 
     width: 100%; 
     border-top: 5px; 
+    padding-left: 20px;
     background-color:pink ;
+    font-size: 15px;
 }
 
 .location{
@@ -135,7 +143,7 @@ main {
 .content-left {
     width: 60%; 
     margin:10px; 
-    margin-top: 350px; 
+    margin-top: 450px; 
     justify-items: center;
 }
 
@@ -152,10 +160,13 @@ main {
 
 main h1 {
     text-transform: uppercase; 
-    line-height: 50px;
+    font-size: 30px;
+    line-height: 5px;
 }
 
-main h2 {
+main h2 {git add .
     text-transform: uppercase; 
     letter-spacing: 8px;
+    font-size: 20px;
+    line-height: 60px;
 }
