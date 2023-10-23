@@ -230,29 +230,3 @@ h4 {
 
 
 
-
-.grid {
-    width: 90%;
-    height: 70%;
-    outline: 2px solid pink;
-    display: grid;
-    grid-template-columns: [col-start] 1fr [col-2] 1fr [col-3] 1fr [col-end];
-    grid-auto-rows: 60px auto 100px;
-    grid-template-areas: 
-    "header header footer"
-    "main main main"
-    "footer footer main"
-}
-
-
-.head {
-    grid-area: header;
-}
-.head {
-    grid-area: main;
-}
-.head {
-    grid-area: footer;
-}
-
-
