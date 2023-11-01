@@ -1,35 +1,33 @@
 body {
-  color: coral;
+  color: rgb(137, 89, 1);
 }
 
-.contact-us {
-  color: white;
+.languages {
+  color: rgb(137, 89, 1);
+  background-color: white;
   border: none;
-  border-radius: 100px;
-  width: 8%;
+  width: 6%;
+  margin-top: 50px;
   cursor: pointer;
   border-top: 5px;
   padding-left: 10px;
-  padding-top: 10px;
   padding-right: 5px;
-  padding-bottom: 10px;
-  background-color: pink;
   font-size: 15px;
   font-family: "Times New Roman", Times, serif;
 }
 
 .home {
-  color: white;
-  border: none;
+  color: rgb(137, 89, 1);
   border-radius: 100px;
   width: 100%;
   border-top: 5px;
-  padding-left: 20px;
+  padding-left: 100px;
   font-size: 15px;
+  justify-content: right;
 }
 
 .location {
-  color: white;
+  color: rgb(137, 89, 1);
 }
 
 ul {
@@ -40,39 +38,46 @@ ul {
 
 ul li a {
   padding: 0px;
+  margin-top: 50px;
   text-decoration: none;
-  color: coral;
+  color: rgb(14, 51, 83);
   display: inline-block;
 }
 
-header {
-  height: 100px;
+.header-1 {
+  height: 50px;
   display: flex;
   align-items: center;
-  background-color: lightpink;
   border-radius: 100px;
+  margin: 0px;
   justify-content: space-around;
 }
 
-header-1 {
-  margin-bottom: 900px;
+.backgroundd {
+  margin: 0px;
+  padding: 0 0 0 0px;
 }
 
 #Page-title {
-  color: coral;
-  font-size: 100px;
-  padding-top: 35px;
-  padding-left: 250px;
-  font-family: Geneva;
+  color: rgb(137, 89, 1);
+  font-size: 1.2rem;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
   border-radius: 100%;
-  border-width: 10px;
 }
 
 .owner {
-  padding-left: 650px;
+  font-size: 0.8rem;
+  margin-top: 0px;
+}
+
+.owner-name {
+  display: flex;
+  justify-content: left;
   align-items: center;
-  justify-items: center;
-  font-size: 25px;
+  flex-direction: column;
+  width: 100%;
+  margin: 30 0;
 }
 
 * {
@@ -80,73 +85,77 @@ header-1 {
   padding: 0px;
 }
 
-main {
+.main {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.content-left1 {
+.content-left {
   width: 60%;
   margin: 5px;
-  margin-top: 430px;
+  margin-right: 50px;
+  margin-bottom: 100px;
   justify-items: left;
   border-style: solid;
-  border-color: lightpink;
+  border-color: rgb(140, 91, 2);
   border-radius: 100px;
   border-right: 50px;
-  border-left: 500px;
+  border-left: 100px;
   border-width: 10px;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
 }
 
-main h1 {
-  text-transform: uppercase;
-  font-size: 30px;
-  line-height: 5px;
-  align-items: center;
-}
-
-main h2 {
-  text-transform: uppercase;
-  letter-spacing: 8px;
-  font-size: 20px;
-  line-height: 60px;
-}
-
 .content-right {
-  width: 60%;
-  margin: 5px;
-  margin-top: 300px;
-  justify-items: left;
+  width: 100%;
+  margin-top: 20px;
+  justify-items: center;
   border-style: solid;
-  border-color: lightpink;
+  border-color: rgb(140, 91, 2);
   border-radius: 100px;
-  border-right: 50px;
-  border-left: 500px;
+  border-right: 10px;
+  border-left: 50px;
   border-width: 10px;
-  padding-top: 50px;
   padding-bottom: 10px;
-  padding-left: 50px;
+  padding-left: 40px;
   padding-top: 10px;
-}
-
-.image-8 {
-  border-radius: 50px;
-  margin-top: 15px;
-  padding-bottom: 20px;
 }
 
 .image-4 {
   border-radius: 50px;
-  margin-top: 15px;
+  margin-top: 20px;
   padding-bottom: 20px;
+  width: 90%;
+  height: 30%;
 }
 
-h4 {
+.image-4 {
+  border-radius: 50px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+  height: 30%;
+}
+
+.image-5 {
+  border-radius: 50px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: 95%;
+}
+
+.image-4 {
+  border-radius: 50px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+  height: 30%;
+}
+
+/* h4 {
   color: coral;
   padding-left: 600px;
   font-size: 40px;
@@ -166,7 +175,7 @@ h4 {
 }
 
 .body-2 {
-  color: coral;
+  color: rgb(137, 89, 1);
   background-color: rgb(249, 233, 233);
   border: solid;
   border-width: 2px;
@@ -177,7 +186,7 @@ h4 {
 }
 
 .name {
-  color: coral;
+  color: rgb(137, 89, 1);
   background-color: rgb(249, 233, 233);
   border: solid;
   border-width: 2px;
@@ -229,29 +238,4 @@ h4 {
   margin-left: 500px;
   margin-right: 500px;
   font-style: italic;
-}
-
-.products {
-  background-color: rgb(255, 239, 241);
-  color: rgb(244, 150, 166);
-  cursor: pointer;
-  padding: 18px;
-  font-family: "Times New Roman", Times, serif;
-  width: 100%;
-  border: none;
-  font-size: 20px;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-.accordion:hover {
-  background-color: #ccc;
-}
-
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: lightpink;
-  overflow: hidden;
-}
+} */
