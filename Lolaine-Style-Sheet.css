@@ -1,19 +1,29 @@
 body {
   color: rgb(137, 89, 1);
+  background-color: rgb(255, 247, 247);
+}
+
+.header-1 {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  margin: 0px;
+  justify-content: space-around;
 }
 
 .languages {
   color: rgb(137, 89, 1);
-  background-color: white;
   border: none;
-  width: 6%;
+  background-color: rgb(255, 247, 247);
+  width: 7%;
   margin-top: 50px;
   cursor: pointer;
   border-top: 5px;
   padding-left: 10px;
   padding-right: 5px;
   font-size: 15px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: monospace;
 }
 
 .home {
@@ -21,13 +31,11 @@ body {
   border-radius: 100px;
   width: 100%;
   border-top: 5px;
-  padding-left: 100px;
-  font-size: 15px;
-  justify-content: right;
-}
-
-.location {
-  color: rgb(137, 89, 1);
+  padding-left: 150px;
+  margin-top: 50px;
+  margin-right: 50px;
+  justify-content: space-around;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul {
@@ -44,44 +52,30 @@ ul li a {
   display: inline-block;
 }
 
-.header-1 {
-  height: 50px;
-  display: flex;
-  align-items: center;
-  border-radius: 100px;
-  margin: 0px;
-  justify-content: space-around;
-}
-
-.backgroundd {
-  margin: 0px;
-  padding: 0 0 0 0px;
-}
-
-#Page-title {
+.location {
   color: rgb(137, 89, 1);
-  font-size: 1.2rem;
-  align-items: center;
-  font-family: "Times New Roman", Times, serif;
-  border-radius: 100%;
+  margin: 5px;
+  font-size: 15px;
 }
 
-.owner {
-  font-size: 0.8rem;
-  margin-top: 0px;
+.currency {
+  border-style: solid;
+  border-color: rgb(137, 89, 1);
+  color: rgb(137, 89, 1);
+  border-width: 1px;
+  border-radius: 50px;
+  font-size: 0.6rem;
+  padding: 5px;
+  background-color: rgb(255, 247, 247);
 }
 
-.owner-name {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  margin: 30 0;
+.line {
+  padding-left: 0px;
+  text-align: center;
 }
 
 * {
-  margin: 5px;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -91,68 +85,129 @@ ul li a {
   justify-content: center;
 }
 
-.content-left {
-  width: 60%;
-  margin: 5px;
-  margin-right: 50px;
-  margin-bottom: 100px;
-  justify-items: left;
-  border-style: solid;
-  border-color: rgb(140, 91, 2);
-  border-radius: 100px;
-  border-right: 50px;
-  border-left: 100px;
-  border-width: 10px;
-  padding-top: 30px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.content-right {
+.set-1 {
   width: 100%;
-  margin-top: 20px;
-  justify-items: center;
-  border-style: solid;
+  padding-right: 0px;
+  margin: 0px;
+  margin-bottom: 70px;
+  margin-top: 45px;
+  justify-items: left;
   border-color: rgb(140, 91, 2);
-  border-radius: 100px;
-  border-right: 10px;
-  border-left: 50px;
-  border-width: 10px;
-  padding-bottom: 10px;
-  padding-left: 40px;
-  padding-top: 10px;
+  padding-top: 150px;
+  padding-left: 50px;
+  padding-bottom: 170px;
 }
 
-.image-4 {
-  border-radius: 50px;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  width: 90%;
-  height: 30%;
+.brand-details {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 30 0;
 }
 
-.image-4 {
-  border-radius: 50px;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  width: 90%;
-  height: 30%;
+#brand-name {
+  color: rgb(137, 89, 1);
+  justify-content: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 100%;
+  margin-right: 900px;
+  font-size: 2.5rem;
 }
 
-.image-5 {
-  border-radius: 50px;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  width: 95%;
+.owner {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  margin-right: 900px;
 }
 
-.image-4 {
-  border-radius: 50px;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  width: 90%;
-  height: 30%;
+.sentence-1 {
+  font-family: monospace;
+  margin-right: 800px;
+}
+
+.heading-2 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.line {
+  padding-left: 0px;
+  text-align: center;
+}
+
+.skin-type {
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.dropdown-1 {
+  position: relative;
+  border-radius: 40px;
+  margin-left: 50px;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  border-radius: 20px;
+  background-color: #e3e3e3;
+  min-width: 360px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-1:hover .dropdown-content-1 {
+  display: block;
+}
+
+.dropdown-2 {
+  position: relative;
+  border-radius: 40px;
+  margin-left: 50px;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.dropdown-content-2 {
+  display: none;
+  position: absolute;
+  border-radius: 20px;
+  background-color: #e3e3e3;
+  min-width: 360px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-2:hover .dropdown-content-2 {
+  display: block;
+}
+
+.heading-3 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.list-set-1 {
+  margin-top: 40px;
+  justify-content: space-around;
+  border-radius: 30px;
+  border-style: none;
 }
 
 /* h4 {
