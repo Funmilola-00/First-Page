@@ -1,6 +1,6 @@
-body {
+.body {
   color: rgb(137, 89, 1);
-  background-color: rgb(255, 247, 247);
+  background-color: rgba(255, 248, 240, 0.877);
 }
 
 .division-1 {
@@ -58,9 +58,9 @@ ul li a {
   color: rgb(137, 89, 1);
   border-width: 1px;
   border-radius: 50px;
+  background-color: rgba(255, 248, 240, 0.877);
   font-size: 0.6rem;
   padding: 5px;
-  background-color: rgb(255, 247, 247);
 }
 
 .languages {
@@ -73,7 +73,7 @@ ul li a {
   font-size: 0.6rem;
   margin-top: 5px;
   padding: 5px;
-  background-color: rgb(255, 247, 247);
+  background-color: rgba(255, 248, 240, 0.877);
 }
 
 .line-1 {
@@ -88,106 +88,150 @@ ul li a {
 
 .main {
   display: flex;
+  height: 70%;
   align-items: center;
   justify-content: center;
+  background-image: url(face.jpg);
+  width: 100%;
+  margin: 70 0 0 0;
 }
 
-.division-2 {
+.division-left {
   width: 100%;
-  margin: 0px;
-  margin-bottom: 70px;
-  margin-top: 40px;
+  margin: 50 800 50 80;
+  background-color: rgba(234, 220, 202, 0.877);
   justify-items: left;
-  padding-top: 120px;
-  padding-left: 50px;
-  padding-bottom: 100px;
 }
 
 .set-2 {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   flex-direction: column;
-  width: 100%;
-  margin: 30 0;
+}
+
+.logo {
+  color: rgb(137, 89, 1);
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  font-size: 4rem;
 }
 
 #Welcome-note-1 {
-  color: rgb(253, 234, 234);
+  color: rgb(137, 89, 1);
   font-family: "Times New Roman", Times, serif;
   border-radius: 100%;
-  text-align: left;
-  padding-left: 70px;
+  text-align: center;
+  padding-top: 10px;
   padding-bottom: 20px;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .Welcome-note-2 {
   font-size: 0.8rem;
-  padding-left: 230px;
-  color: rgb(253, 234, 234);
-  margin-top: 0px;
-  margin-right: 600px;
-  padding-bottom: 0px;
+  /* color: rgb(253, 234, 234); */
+  color: rgb(137, 89, 1);
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .sentence-1 {
-  color: rgb(253, 234, 234);
+  color: rgb(137, 89, 1);
   font-family: monospace;
-  margin-right: 800px;
+  margin: 0 50 0 50;
   text-align: center;
 }
 
 .shop-now {
-  margin-top: 50px;
-  border-width: 4px;
-  margin-left: 16%;
-  font-family: monospace;
-  border-radius: 50px;
-  border-color: #8493f7;
-  padding: 10 50 10 50;
-  background-color: rgb(116, 145, 174);
-  color: white;
+  align-content: center;
+  border-width: 8px;
   cursor: pointer;
+  border-radius: 50px;
+  padding: 10 50 10 50;
+  position: relative;
+  background-color: rgba(234, 220, 202, 0.834);
+  color: rgb(201, 151, 58);
+  margin: 50 0 50 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-color: rgba(222, 171, 105, 0.834);
 }
 
 .division-3a {
-  background-color: #fbeded;
   border-style: none;
   border-width: 1px;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  filter: opacity(0.8rem);
+  background-image: url(snail.webp);
+  margin: 150 0 100 0;
+}
+
+.heading-01 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  background-color: rgba(234, 220, 202, 0.834);
+  margin: 30 0 0 0;
+  padding: 50 0 0 0;
+}
+
+.line-01 {
+  padding-left: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgba(234, 220, 202, 0.834);
+  margin-bottom: 10px;
+}
+
+.skin {
+  cursor: alias;
+  position: static;
+  align-content: center;
+  border-width: 12px;
+  justify-content: space-around;
+  margin: 50 0 50 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: relative;
+  border-radius: 50px;
+  padding: 20 40 20 40;
+  background-color: rgba(234, 220, 202, 0.834);
+  color: rgb(137, 89, 1);
 }
 
 .quiz {
-  margin-top: 50px;
-  align-content: center;
   border-width: 8px;
-  margin-right: 30%;
-  margin-left: 42%;
   cursor: pointer;
+  margin: 50 0 50 0;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border-radius: 50px;
   padding: 10 50 10 50;
-  background-color: rgb(248, 231, 231);
+  background-color: rgba(234, 220, 202, 0.834);
   color: rgb(137, 89, 1);
-  margin-bottom: 70px;
-  border-color: rgb(243, 188, 211);
+  border-color: rgba(205, 149, 77, 0.834);
 }
 
 .division-3 {
-  background-color: #fbeded;
+  background-color: rgba(234, 220, 202, 0.834);
   border-style: none;
   border-width: 1px;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin: 150 0 100 0;
 }
 
 .heading-1 {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2.5rem;
-  margin-bottom: 0px;
   padding-top: 50px;
-  margin-top: 50px;
 }
 
 .line-2 {
@@ -198,16 +242,16 @@ ul li a {
 
 .list-set-1 {
   margin-top: 20px;
-  background-color: #fbeded;
   justify-content: space-around;
+  background-color: rgba(226, 205, 178, 0.834);
   border-radius: 30px;
-  padding-bottom: 10px;
+  padding: 20 0 20 0;
   border-style: none;
 }
 
 .image-set-1 {
   margin-top: 10px;
-  background-color: #fbeded;
+  background-color: rgba(234, 220, 202, 0.834);
   justify-content: space-around;
   border-radius: 30px;
   padding-bottom: 10px;
@@ -227,31 +271,22 @@ ul li a {
   margin: 5 0 5 0;
 }
 
-.bestseller {
-  margin-top: 10px;
-  align-content: center;
-  border-radius: 50px;
-  border-style: none;
-  padding: 10 50 10 20;
-  background-color: rgb(248, 231, 231);
-  color: rgb(137, 89, 1);
-  margin-bottom: 20px;
-  border-color: rgb(243, 188, 211);
-}
-
 .see-more-products {
-  margin-top: 50px;
   align-content: center;
+  background-image: url(skincare2.jpg);
   border-width: 8px;
-  margin-right: 30%;
-  margin-left: 42%;
   cursor: pointer;
   border-radius: 50px;
+  position: relative;
   padding: 10 50 10 50;
-  background-color: rgb(248, 231, 231);
-  color: rgb(137, 89, 1);
-  margin-bottom: 70px;
-  border-color: rgb(243, 188, 211);
+  background-color: rgba(234, 220, 202, 0.834);
+  color: rgb(201, 151, 58);
+  margin: 50 0 50 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-color: rgba(222, 171, 105, 0.834);
 }
 
 .division-4 {
@@ -274,7 +309,6 @@ ul li a {
 
 .set-8 {
   list-style-type: none;
-  padding-left: 30px;
   margin-left: 0px;
   justify-content: space-around;
 }
@@ -288,33 +322,10 @@ ul li a {
 .List-1 {
   border-style: solid;
   border-width: 1px;
-  background-color: white;
-  padding-right: 20px;
-  padding-left: 30px;
-  margin-right: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border-color: rgb(216, 216, 216);
-}
-
-.List-2 {
-  border-style: solid;
-  border-width: 1px;
-  background-color: white;
-  padding-right: 10px;
-  padding-left: 20px;
-  margin-right: 10px;
-  margin-left: 5px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border-color: rgb(216, 216, 216);
-}
-
-.List-3 {
-  border-style: solid;
-  border-width: 1px;
-  background-color: white;
+  background-color: rgba(253, 251, 248, 0.877);
   padding-right: 20px;
   padding-left: 20px;
-  margin-right: 20px;
+  margin: 0 10 0 20;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-color: rgb(216, 216, 216);
 }
@@ -324,6 +335,7 @@ ul li a {
   border-radius: 120px;
   padding-top: 10px;
   border-width: 9px;
+  background-color: beige;
   cursor: pointer;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -423,8 +435,29 @@ ul li a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.p-2 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+
+.p-3 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.6rem;
+}
+
+.p-4 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  margin: 20 0 20 0;
+}
+
 .english {
-  margin-top: 50px;
+  margin-top: 30px;
   align-content: center;
   border-width: 8px;
   margin-right: 30%;
@@ -438,6 +471,20 @@ ul li a {
   border-color: rgb(243, 188, 211);
 }
 
+.english-1 {
+  margin-top: 50px;
+  align-content: center;
+  border-width: 8px;
+  margin-right: 30%;
+  margin-left: 43%;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10 50 10 50;
+  background-color: rgb(248, 231, 231);
+  color: rgb(137, 89, 1);
+  margin-bottom: 30px;
+  border-color: rgb(243, 188, 211);
+}
 .list-set-4 {
   background-color: rgb(248, 231, 231);
   color: rgb(137, 89, 1);
