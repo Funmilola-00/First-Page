@@ -416,10 +416,8 @@ ul li a {
 }
 
 .panel {
-  padding: 0 18px;
   font-size: 17px;
-  padding: 20 100 20 10;
-  margin: 0 90 0 0;
+  padding: 20 0;
   display: none;
   background-color: rgba(244, 218, 183, 0.834);
   overflow: hidden;
