@@ -1,11 +1,16 @@
 .body {
   color: rgb(137, 89, 1);
-  background-image: url(Untitled-6.jpg);
   background-color: rgba(255, 248, 240, 0.877);
 }
 
+@media only screen and (max-width: 600px) {
+  .body {
+    background-color: rgba(255, 248, 240, 0.877);
+  }
+}
+
 .division-1 {
-  height: 30px;
+  height: 50px;
   display: flex;
   justify-content: space-around;
   margin: 40 0 0 20;
@@ -15,12 +20,14 @@
   text-align: left;
   padding-right: 500px;
   font-size: 1rem;
+  margin-top: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .home {
   color: rgb(137, 89, 1);
   font-size: 15px;
+  margin-top: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -67,6 +74,7 @@ ul li a {
 .line-1 {
   padding-left: 0px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 * {
@@ -74,21 +82,20 @@ ul li a {
   padding: 0px;
 }
 
-.main {
+/* .main {
   display: flex;
-  height: 60%;
-  aspect-ratio: 16/9;
   align-items: center;
+  height: 20%;
   justify-content: center;
   background-image: url(skincare.jpg);
-  width: 100%;
-  margin: 70 0 0 0;
-}
+  width: 50%;
+} */
 
 .division-left {
-  width: 100%;
-  margin: 50 800 50 80;
-  background-color: rgba(234, 220, 202, 0.796);
+  width: 40%;
+  height: 500px;
+  margin-top: 10px;
+  background-color: rgba(234, 220, 202, 0.9);
   justify-items: left;
 }
 
@@ -102,9 +109,9 @@ ul li a {
   color: rgb(137, 89, 1);
   font-family: "Times New Roman", Times, serif;
   border-radius: 100%;
-  text-align: center;
-  padding-top: 70px;
-  padding-bottom: 0px;
+  text-align: left;
+  margin-left: 300px;
+  margin-top: 50px;
   font-size: 4rem;
 }
 
@@ -112,42 +119,45 @@ ul li a {
   color: rgb(137, 89, 1);
   font-family: "Times New Roman", Times, serif;
   border-radius: 100%;
-  text-align: center;
+  text-align: left;
   padding-top: 10px;
   padding-bottom: 20px;
+  margin-left: 180px;
   font-size: 1.5rem;
 }
 
 .Welcome-note-2 {
   font-size: 0.8rem;
+  margin-left: 230px;
   /* color: rgb(253, 234, 234); */
   color: rgb(137, 89, 1);
-  padding-bottom: 50px;
-  text-align: center;
+  padding-bottom: 30px;
+  text-align: left;
 }
 
 .sentence-1 {
   color: rgb(137, 89, 1);
-  font-family: monospace;
-  margin: 0 50 0 50;
-  text-align: center;
+  font-size: 18px;
+  font-family: Segoe UI;
+  margin-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
 }
 
 .shop-now {
-  align-content: center;
   border-width: 8px;
   cursor: pointer;
   border-radius: 50px;
-  padding: 10 50 10 50;
+  padding: 100 500 10 50;
   position: relative;
   background-color: rgba(234, 220, 202, 0.834);
   color: rgb(201, 151, 58);
-  margin: 50 0;
+  margin: 50 0 50 400;
   transition: 500ms;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  /* top: 50%;
+  left: 50%; */
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
   border-color: rgba(222, 171, 105, 0.834);
 }
 
